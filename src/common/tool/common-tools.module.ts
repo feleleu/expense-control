@@ -13,6 +13,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
 import { MatNativeDateModule } from "@angular/material/core";
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSidenavModule} from '@angular/material/sidenav';
+
 
 
 @NgModule({
@@ -32,6 +34,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatRadioModule,
     MatNativeDateModule,
     MatGridListModule,
+    MatSidenavModule,
   ],
   exports: [
     MatToolbarModule,
@@ -48,6 +51,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatRadioModule,
     MatNativeDateModule,
     MatGridListModule,
+    MatSidenavModule,
   ],
 })
 
