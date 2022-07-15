@@ -7,6 +7,6 @@ import { NgModule } from "@angular/core";
 
 @NgModule({
   declarations: [PagesComponent],
-  imports: [CommonModule, PagesRoutingModule],
+  imports: [CommonModule, PagesRoutingModule, SharedModule],
 })
 export class PagesModule { }
